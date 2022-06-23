@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch External Terminal",
+            //"cwd": "${fileBasename}",
+            "request": "launch",
+            //"console": "externalTerminal",
+            "mainClass": "com.digi.xbee.api.receivedata.MainApp",
+
+            "classPaths": ["${workspaceFolder}"],
+            // "sourcePaths": ["${workspaceFolder}/src/com/digi/xbee/api/receivedata"]
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${fileBasename}"
+        }
+    ]
+}

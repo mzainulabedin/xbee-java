@@ -31,9 +31,9 @@ public class MainApp {
 	/* Constants */
 	
 	// TODO Replace with the serial port where your receiver module is connected.
-	private static final String PORT = "COM1";
+	private static final String PORT = "COM3";
 	// TODO Replace with the baud rate of you receiver module.
-	private static final int BAUD_RATE = 9600;
+	private static final int BAUD_RATE = 230400;
 
 	/**
 	 * Application main method.
